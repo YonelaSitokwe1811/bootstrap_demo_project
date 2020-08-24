@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap);
+
+* {
+    font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   margin: 1;
+   padding: 0;
+   box-sizing: border-box; 
+   font-size: 16px;
+}
+
+
+.menu-bar{
+    background-color: navy;
+    display: flex;
+    padding:15px 0 0 505px;
+    position: left	
+}
+.menu-links a{
+    color: white;
+    justify-items: space-around;
+    padding: 50px 0 0 50px;
+	font-style: Arial;
+	position:left;	
+}
+.image-container{
+	
+    display:flex;
+	position:relative;
+	
+	
+	
+	
+}
+.image-container .blocks{
+	color:navy;
+    padding-left: 50px;
+}
+.info-container h2{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+}
+
+.living{
+   
+    display: inline-flex;
+    color: white;
+    border-top-style: solid;
+    border-color: white;
+    height: 60vh;
+    
+}
+.living .words{
+    width: 70%;
+    padding: 130px 30px 10px 40px;
+}
+.image-container{
+    display:flex;
+}
+.image-container .blocks{
+    padding-left: 50px;
+}
+.living h2{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+}
+
+
+
+.featured-products {
+   
+    text-align: right;
+	
+	text-decoration:underline;
+	font-size: 50px;
+	color:purple;
+}
+.footer-background .meet{
+     
+    
+    border-radius: 1px;
+    z-index: -5;
+	
+} 
+.footer {
+  
+    background-color: navy;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center-left;
+    height: 5vh;
+    position: relative;
+    
+
+}
